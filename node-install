@@ -3,7 +3,7 @@
 
 import os
 if os.geteuid() != 0:
-  exit("You need to run node-installer as root.")
+  exit("Du skal kører node-installer som root.")
 
 import re
 import imp
